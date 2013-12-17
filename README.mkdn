@@ -1,0 +1,70 @@
+KylinMod
+===========
+
+Submitting Patches
+------------------
+Patches are always welcome!  Please submit your patches via KylinMod Gerrit!
+You can do this by using these commands:
+
+    (From root android directory)
+    . build/envsetup.sh
+    (Go to repo you are patching, make your changes and commit)
+    kmgerrit <for(new)/changes(patch set)> <branch/change-id> 
+
+    repo start kitkat .
+    (Make your changes and commit)
+    repo upload .
+Note: "." meaning current directory
+For more help on using this tool, use this command: repo help upload
+
+Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
+Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
+
+To view the status of your and others' patches, visit [KylinMod Code Review](http://review.kylinmod.com/)
+
+
+Getting Started
+---------------
+
+To get started with Android/KylinMod, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the KylinMod trees, use a command like this:
+
+    repo init -u git://github.com/KylinMod/android.git -b kitkat
+
+Then to sync up:
+
+    repo sync
+
+Please see the Github for building instructions.
+
+For more information on this Github Organization and how it is structured, 
+
+Start build
+----------
+First, go to the root path of your project. We assume that your source is under 
+(/kylin):
+
+    cd /kylin
+    
+then
+
+    . build/envsetup.sh
+    
+Next
+
+    lunch
+  
+Choose your model number that corresponds to the digital input into the command window
+
+Next
+
+    make bacon -j8
+  
+Finally, the wait for the completion and enjoy your new system
+
+
+All supported devices are built nightly and periodically as changes are committed to ensure the source trees remain buildable.
+
+
