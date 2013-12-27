@@ -464,6 +464,7 @@
   <project path="packages/apps/Launcher3" name="KylinMod/android_packages_apps_Launcher3" />
   <project path="packages/apps/LockClock" name="KylinMod/android_packages_apps_LockClock" />
   <project path="packages/apps/Mms" name="KylinMod/android_packages_apps_Mms" />
+  <project path="packages/apps/KylinModScreenRecorder" name="KylinMod/android_packages_apps_KylinModScreenRecorder" />
   <project path="packages/apps/KylinModSetupWizard" name="KylinMod/android_packages_apps_KylinModSetupWizard" />
   <project path="packages/apps/PackageInstaller" name="KylinMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/QuickSearchBox" name="KylinMod/android_packages_apps_QuickSearchBox" />
