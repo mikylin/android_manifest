@@ -274,7 +274,6 @@
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" remote="cm" revision="cm-11.0" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" remote="cm" revision="cm-11.0" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" remote="cm" revision="cm-11.0" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" remote="cm" revision="cm-11.0" />
@@ -486,6 +485,7 @@
   <project path="frameworks/opt/hardware" name="KylinMod/android_frameworks_opt_hardware" />
   <project path="frameworks/opt/telephony" name="KylinMod/android_frameworks_opt_telephony" />
   <project path="frameworks/support" name="KylinMod/android_frameworks_support" />
+  <project path="frameworks/native" name="KylinMod/android_frameworks_native" groups="pdk" />
   <!-- KylinMod Frameworks End -->
 
   <!-- KylinMod System Start -->
