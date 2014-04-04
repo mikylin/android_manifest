@@ -31,7 +31,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the KylinMod trees, use a command like this:
 
-    repo init -u git://github.com/KylinMod/android_manifest.git -b kitkat
+    repo init -u git://github.com/mikylin/android_manifest.git -b kitkat
 
 Then to sync up:
 
@@ -46,7 +46,7 @@ Start build
 First, go to the root path of your project. We assume that your source is under 
 (/kylin):
 
-    cd /kylin
+    cd /mikylin
     
 then
 

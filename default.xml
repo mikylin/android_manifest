@@ -15,6 +15,9 @@
   <remote  name="kylin"
            fetch="https://github.com/" />
 
+  <remote name="github"
+           fetch="git://github.com/" />
+
   <default revision="refs/heads/kitkat"
            remote="kylin"
            sync-c="true"
@@ -299,15 +302,18 @@
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/audio-caf" name="mikylin/android_hardware_qcom_audio-caf" groups="caf" remote="github" revision="kitkat" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/media" name="mikylin/android_hardware_qcom_media" groups="qcom" remote="github" revision="kk" />
   <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/media-legacy" name="mikylin/android_hardware_qcom_media-legacy"  remote="github" revision="kitkat" />
+  <project path="hardware/qcom/display-legacy" name="mikylin/android_hardware_qcom_display-legacy"  remote="github" revision="kitkat" />
+  <project path="hardware/qcom/display-legacy-caf" name="mikylin/android_hardware_qcom_display-legacy-caf"  remote="github" revision="kitkat" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/msm8x74" name="CyanogenMod/android_hardware_qcom_msm8x74" groups="qcom_msm8x74" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="cm" revision="cm-11.0" />
@@ -365,6 +371,7 @@
   <project path="packages/wallpapers/MagicSmoke" name="CyanogenMod/android_packages_wallpapers_MagicSmoke" remote="cm" revision="cm-11.0" />
   <project path="packages/wallpapers/MusicVisualization" name="CyanogenMod/android_packages_wallpapers_MusicVisualization" remote="cm" revision="cm-11.0" />
   <project path="packages/wallpapers/NoiseField" name="CyanogenMod/android_packages_wallpapers_NoiseField" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/OmniSwitch" name="mikylin/android_packages_apps_OmniSwitch" remote="github" revision="kk" />
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" remote="cm" revision="cm-11.0" />
   <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="pdk" />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="cm" revision="cm-11.0" />
@@ -416,7 +423,7 @@
   <project path="sdk" name="CyanogenMod/android_sdk" remote="cm" revision="cm-11.0" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" remote="cm" revision="cm-11.0" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="system/netd" name="mikylin/android_system_netd" groups="pdk" remote="github" revision="kitkat" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="cm" revision="cm-11.0" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" remote="cm" revision="cm-11.0" />
@@ -440,7 +447,7 @@
   <!-- KylinMod Development End -->
 
   <!-- KylinMod External Start -->
-  <project path="external/wpa_supplicant_8" name="KylinMod/android_external_wpa_supplicant_8" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="mikylin/android_external_wpa_supplicant_8" groups="pdk" />
   <project path="external/koush/Superuser" name="KylinMod/android_external_koush_Superuser" />
   <!-- KylinMod External End -->
 
@@ -466,7 +473,7 @@
   <project path="packages/apps/KylinModSetupWizard" name="KylinMod/android_packages_apps_KylinModSetupWizard" />
   <project path="packages/apps/PackageInstaller" name="KylinMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/QuickSearchBox" name="KylinMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="KylinMod/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="mikylin/android_packages_apps_Settings" />
   <project path="packages/apps/Torch" name="KylinMod/android_packages_apps_Torch" />
   <project path="packages/apps/UnifiedEmail" name="KylinMod/android_packages_apps_UnifiedEmail" />
   <!-- KylinMod Packages Apps End -->
@@ -481,8 +488,8 @@
   <!-- KylinMod Packages Service End -->
 
   <!-- KylinMod Frameworks Start -->
-  <project path="frameworks/av" name="KylinMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="KylinMod/android_frameworks_base" />
+  <project path="frameworks/av" name="mikylin/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/base" name="mikylin/android_frameworks_base" />
   <project path="frameworks/opt/datetimepicker" name="KylinMod/android_frameworks_opt_datetimepicker" />
   <project path="frameworks/opt/hardware" name="KylinMod/android_frameworks_opt_hardware" />
   <project path="frameworks/opt/telephony" name="KylinMod/android_frameworks_opt_telephony" />
@@ -492,16 +499,22 @@
   <!-- KylinMod Frameworks End -->
 
   <!-- KylinMod System Start -->
-  <project path="system/core" name="KylinMod/android_system_core" groups="pdk" />
+  <project path="system/core" name="mikylin/android_system_core" groups="pdk" />
   <!-- KylinMod System End -->
 
   <!-- Devices Paired Start -->
   <!-- Other -->
   <project path="art" name="KylinMod/android_art" />
-  <project path="vendor/kylin" name="KylinMod/android_vendor_kylin" />
+  <project path="vendor/kylin" name="mikylin/android_vendor_kylin" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="KylinMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="device/generic/goldfish" name="KylinMod/android_device_generic_goldfish" groups="pdk" />
-  <!-- Devices Paired End -->
+<!-- MIAOKP Devices -->
+  <project path="device/xiaomi/mione_plus" name="mikylin/android_device_xiaomi_mione_plus" remote="github" revision="kitkat" />
+  <project path="device/xiaomi/msm8660-common" name="mikylin/android_device_xiaomi_msm8660-common" remote="github" revision="kitkat" />
+
+  <!-- MIAOKP Device Vendors -->
+  <project path="vendor/xiaomi" name="mikylin/proprietary_vendor_xiaomi" remote="github" revision="kitkat" />
+  
   
   <!-- =============== KylinMod Repo End ================ -->
   
