@@ -300,7 +300,7 @@
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="cm" revision="cm-11.0" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" remote="cm" revision="cm-11.0" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" remote="cm" revision="cm-11.0" />
-  <project path="hardware/libhardware_legacy" name="mikylin/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="kitkat" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/audio-caf" name="mikylin/android_hardware_qcom_audio-caf" groups="caf" remote="github" revision="kitkat" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="cm" revision="cm-11.0" />
