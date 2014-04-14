@@ -67,6 +67,7 @@
   <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" remote="cm" revision="cm-11.0" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="external/bson" name="CyanogenMod/android_external_bson" remote="cm" revision="cm-11.0" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-11.0" />
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
@@ -87,7 +88,7 @@
   <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="external/chromium_org/third_party/openssl" name="CyanogenMod/android_external_chromium_org_third_party_openssl" remote="cm" revision="cm-11.0" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
@@ -102,6 +103,7 @@
   <project path="external/compiler-rt" name="CyanogenMod/android_external_compiler-rt" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="cm" revision="cm-11.0" />
   <project path="external/crda" name="CyanogenMod/android_external_crda" remote="cm" revision="cm-11.0" />
+  <project path="external/curl" name="CyanogenMod/android_external_curl" remote="cm" revision="cm-11.0" />
   <project path="external/dexmaker" name="CyanogenMod/android_external_dexmaker" remote="cm" revision="cm-11.0" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" remote="cm" revision="cm-11.0" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" remote="cm" revision="cm-11.0" />
@@ -227,6 +229,7 @@
   <project path="external/ppp" name="CyanogenMod/android_external_ppp" remote="cm" revision="cm-11.0" />
   <project path="external/proguard" name="CyanogenMod/android_external_proguard" groups="pdk-java" remote="cm" revision="cm-11.0" />
   <project path="external/protobuf" name="CyanogenMod/android_external_protobuf" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" remote="cm" revision="cm-11.0" />
   <project path="external/qemu" name="CyanogenMod/android_external_qemu" remote="cm" revision="cm-11.0" />
   <project path="external/qemu-pc-bios" name="CyanogenMod/android_external_qemu-pc-bios" remote="cm" revision="cm-11.0" />
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="cm" revision="cm-11.0" />
@@ -265,6 +268,7 @@
   <project path="external/vim" name="CyanogenMod/android_external_vim" remote="cm" revision="cm-11.0" />
   <project path="external/webp" name="CyanogenMod/android_external_webp" remote="cm" revision="cm-11.0" />
   <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="external/wpa_supplicant_8" name="mikylin/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="kitkat" />
   <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-11.0" />
   <project path="external/xmlwriter" name="CyanogenMod/android_external_xmlwriter" remote="cm" revision="cm-11.0" />
   <project path="external/xmp_toolkit" name="CyanogenMod/android_external_xmp_toolkit" remote="cm" revision="cm-11.0" />
@@ -281,6 +285,7 @@
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" remote="cm" revision="cm-11.0" />
+  <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/inputmethodcommon" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/mailcommon" name="CyanogenMod/android_frameworks_opt_mailcommon" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/mms" name="CyanogenMod/android_frameworks_opt_mms" remote="cm" revision="cm-11.0" />
@@ -289,6 +294,7 @@
   <project path="frameworks/opt/telephony-msim" name="CyanogenMod/android_frameworks_opt_telephony-msim" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="cm" revision="cm-11.0" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" remote="cm" revision="cm-11.0" />
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" remote="cm" revision="cm-11.0" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" remote="cm" revision="cm-11.0" />
@@ -356,7 +362,9 @@
   <project path="packages/inputmethods/OpenWnn" name="CyanogenMod/android_packages_inputmethods_OpenWnn" remote="cm" revision="cm-11.0" />
   <project path="packages/inputmethods/PinyinIME" name="CyanogenMod/android_packages_inputmethods_PinyinIME" remote="cm" revision="cm-11.0" />
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" remote="cm" revision="cm-11.0" />
+  <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider"  remote="cm" revision="cm-11.0" />
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" remote="cm" revision="cm-11.0" />
+  <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider"  remote="cm" revision="cm-11.0" />
   <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="cm" revision="cm-11.0" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" remote="cm" revision="cm-11.0" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" remote="cm" revision="cm-11.0" />
@@ -439,7 +447,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-11.0" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-11.0" />
-
+  
   <!-- =============== KylinMod Repo Start ================ -->
   
   <!-- KylinMod Development Start -->
@@ -447,7 +455,6 @@
   <!-- KylinMod Development End -->
 
   <!-- KylinMod External Start -->
-  <project path="external/wpa_supplicant_8" name="mikylin/android_external_wpa_supplicant_8" groups="pdk" />
   <project path="external/koush/Superuser" name="KylinMod/android_external_koush_Superuser" />
   <!-- KylinMod External End -->
 
@@ -463,7 +470,6 @@
   <project path="packages/apps/Dialer" name="KylinMod/android_packages_apps_Dialer" />
   <project path="packages/apps/Email" name="KylinMod/android_packages_apps_Email" />
   <project path="packages/apps/Gallery2" name="KylinMod/android_packages_apps_Gallery2" />
-  <project path="packages/apps/Halo" name="KylinMod/android_packages_apps_Halo" />
   <project path="packages/apps/InCallUI" name="KylinMod/android_packages_apps_InCallUI" />
   <project path="packages/apps/Launcher3" name="KylinMod/android_packages_apps_Launcher3" />
   <project path="packages/apps/LockClock" name="KylinMod/android_packages_apps_LockClock" />
@@ -472,16 +478,10 @@
   <project path="packages/apps/KylinModScreenRecorder" name="KylinMod/android_packages_apps_KylinModScreenRecorder" />
   <project path="packages/apps/KylinModSetupWizard" name="KylinMod/android_packages_apps_KylinModSetupWizard" />
   <project path="packages/apps/PackageInstaller" name="KylinMod/android_packages_apps_PackageInstaller" />
-  <project path="packages/apps/QuickSearchBox" name="KylinMod/android_packages_apps_QuickSearchBox" />
   <project path="packages/apps/Settings" name="mikylin/android_packages_apps_Settings" />
   <project path="packages/apps/Torch" name="KylinMod/android_packages_apps_Torch" />
   <project path="packages/apps/UnifiedEmail" name="KylinMod/android_packages_apps_UnifiedEmail" />
   <!-- KylinMod Packages Apps End -->
-
-  <!-- KylinMod Packages Provider Start -->
-  <project path="packages/providers/CalendarProvider" name="KylinMod/android_packages_providers_CalendarProvider" />
-  <project path="packages/providers/DownloadProvider" name="KylinMod/android_packages_providers_DownloadProvider" />
-  <!-- KylinMod Packages Provider End -->
 
   <!-- KylinMod Packages Service Start -->
   <project path="packages/services/Telephony" name="KylinMod/android_packages_services_Telephony" />
@@ -491,10 +491,8 @@
   <project path="frameworks/av" name="mikylin/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="mikylin/android_frameworks_base" />
   <project path="frameworks/opt/datetimepicker" name="KylinMod/android_frameworks_opt_datetimepicker" />
-  <project path="frameworks/opt/hardware" name="KylinMod/android_frameworks_opt_hardware" />
   <project path="frameworks/opt/telephony" name="KylinMod/android_frameworks_opt_telephony" />
   <project path="frameworks/opt/timezonepicker" name="KylinMod/android_frameworks_opt_timezonepicker" />
-  <project path="frameworks/support" name="KylinMod/android_frameworks_support" />
   <project path="frameworks/native" name="KylinMod/android_frameworks_native" groups="pdk" />
   <!-- KylinMod Frameworks End -->
 
